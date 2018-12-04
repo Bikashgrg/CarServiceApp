@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/red_bg"
+    tools:context=".Notifications">
+
+
+
+    <TextView
+        android:id="@+id/tvRPS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rock Paper Scisssor"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/circle_grad"
+        />
+
+
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/ivCurrent"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:layout_below="@+id/tvRPS"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/scissor" />
+
+    <TextView
+        android:id="@+id/tvHuman"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Human Choice"
+        android:gravity="center"
+        android:layout_below="@+id/ivCurrent"
+        android:background="@drawable/et_bg"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/ivComputer"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:layout_below="@+id/tvHuman"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/stone" />
+
+    <TextView
+        android:id="@+id/tvComputer"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@+id/ivComputer"
+        android:text="Computer Choice"
+        android:textColor="#ffffff"
+        android:background="@drawable/et_bg"
+        android:textSize="20dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Score: Human-> 0  Computer-> 0"
+        android:layout_below="@+id/tvComputer"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="520dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/bRock"
+            android:layout_width="110dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="ROCK"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:background="@drawable/btn_bg"
+            />
+
+        <Button
+            android:id="@+id/bPaper"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Paper"
+            android:layout_marginLeft="5dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:background="@drawable/btn_bg"
+            />
+
+        <Button
+            android:id="@+id/bScissor"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Scissor"
+            android:layout_marginLeft="5dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:background="@drawable/btn_bg"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
