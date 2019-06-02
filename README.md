@@ -24,7 +24,7 @@ This is an car service based application created using android studio where you 
 * If user forget his/her password while login. User can click Forgot Password link in the login page. <br>
 * It only asks for the email. Remember email should be registered. <br>
 * After clicking send email. An email for resetting password will be sent to the given email. Resetting password email is genereted through the Firebase. <br>
-* After this user can easily re-login with new password. <br><br><br><br><br><br><br><br>
+* After this user can easily re-login with new password. <br><br><br><br><br><br><br><br><br><br><br><br>
 
 ### 5. `Home Page` 
 <img align="left" src="https://user-images.githubusercontent.com/29011734/58758284-10057780-8537-11e9-96ee-75b8c849189d.png" width="250" height="500">
