@@ -38,7 +38,7 @@ This is an car service based application created using android studio where you 
 * When you click 'MY CURRENT LOCATION' button on home page, this page appears. <br>
 * This page shows the current location of the user. <br>
 * Current location is shown using the GPS system that is present in the smartphone with the help of google maps. <br>
-* When you click the button present in top right corner, the map zoomed in to show the proper view. <br><br><br><br><br><br><br><br><br><br><br>
+* When you click the button present in top right corner, the map zoomed in to show the proper view. <br><br><br><br><br><br><br><br><br><br><br><br>
 
 ### 5. `Nearby Places Page` 
 <img align="left" src="https://user-images.githubusercontent.com/29011734/59159260-8892a800-8ae4-11e9-9afd-458d5cba1e5b.png" width="250" height="500">
